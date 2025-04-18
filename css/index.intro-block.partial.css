@@ -1,0 +1,7 @@
+.main-container {
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: aliceblue;
+  z-index: 2;
+}
