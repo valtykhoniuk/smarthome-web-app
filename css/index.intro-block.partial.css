@@ -1,7 +1,41 @@
 .main-container {
-  justify-content: center;
+  margin: 1.5rem;
+  text-align: center;
+  flex: 1;
+}
+
+.main-container h1 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.rooms {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.room {
+  background-color: rgba(6, 0, 171, 0.3); /* 👈 Напівпрозорий */
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 20px;
-  background-color: aliceblue;
-  z-index: 2;
+  gap: 1rem;
+  flex: 1;
+  box-shadow: 0 4px 20px rgba(16, 0, 86, 0.5);
+}
+
+.room:hover {
+  box-shadow: 0 4px 20px rgba(174, 172, 255, 0.5);
+  text-shadow: 0 0 8px rgba(174, 172, 255, 1);
+}
+
+.room-icon {
+  width: 2rem;
+  height: 2rem;
 }
