@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smarthome</title>
+    <title>Kitchen</title>
     <link rel="stylesheet" href="css/index.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
@@ -14,42 +14,35 @@
   <body>
     <main>
       <div class="main-container">
-        <h1>Choose the section</h1>
+        <h1>Choose the device</h1>
         <div class="rooms-devices">
-          <div class="room-device" id="living-room">
+          <div class="room-device" id="coffee-maker">
             <img
-              src="assets/icons/bathtub.svg"
+              src="assets/icons/coffee-maker.svg"
               alt="bath icon"
               class="room-device-icon"
             />
-            <h2>Living room</h2>
+            <h2>Coffee maker</h2>
           </div>
-          <div class="room-device" id="kitchen">
+          <div class="room-device" id="fridge">
             <img
-              src="assets/icons/kitchen.svg"
+              src="assets/icons/fridge.svg"
               alt="kitchen icon"
               class="room-device-icon"
             />
-            <h2>Kitchen</h2>
+            <h2>Fridge</h2>
           </div>
-          <div class="room-device" id="bedroom">
+          <div class="room-device" id="lamp">
             <img
-              src="assets/icons/bedroom.svg"
+              src="assets/icons/lamp.svg"
               alt="bedroom icon"
               class="room-device-icon"
             />
-            <h2>Bedroom</h2>
+            <h2>Lamp</h2>
           </div>
         </div>
       </div>
-
-      <!-- <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="index.intro-block.partial.html"
-      ></section> -->
     </main>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="js/index.js" defer></script>
+    <script src="js/kitchen.js"></script>
   </body>
 </html>

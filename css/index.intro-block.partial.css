@@ -9,13 +9,13 @@
   margin-bottom: 1rem;
 }
 
-.rooms {
+.rooms-devices {
   display: flex;
   justify-content: space-around;
   gap: 1.5rem;
 }
 
-.room {
+.room-device {
   background-color: rgba(6, 0, 171, 0.3); /* 👈 Напівпрозорий */
   text-align: center;
   padding: 1.5rem;
@@ -30,12 +30,16 @@
   box-shadow: 0 4px 20px rgba(16, 0, 86, 0.5);
 }
 
-.room:hover {
+.room-device:hover {
   box-shadow: 0 4px 20px rgba(174, 172, 255, 0.5);
   text-shadow: 0 0 8px rgba(174, 172, 255, 1);
 }
 
-.room-icon {
+.room-device {
+  transition: box-shadow 0.5s ease, text-shadow 0.3s ease;
+}
+
+.room-device-icon {
   width: 2rem;
   height: 2rem;
 }
