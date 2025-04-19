@@ -5,8 +5,8 @@
   },
   "lights": {
     "kitchen": true,
-    "livingRoom": false,
-    "bedroom": true
+    "livingRoom": true,
+    "bedroom": false
   },
   "vacuum": {
     "intensivity": 5,
