@@ -1,0 +1,74 @@
+.device-card {
+  margin: auto;
+  border-radius: 2.9rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.temperature-control,
+.mode-switch {
+  padding: 0.8rem;
+}
+
+.temperature-control button {
+  margin-top: 1rem;
+  padding: 0.2rem;
+  font-size: 1rem;
+  border: 0px;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: #00098b;
+}
+
+.temperature-control button:hover {
+  color: #ffd4f2;
+}
+
+.mode-switch p {
+  margin-bottom: 1rem;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ffd4f2;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #00098b;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
