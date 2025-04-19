@@ -4,6 +4,7 @@
   padding: 2rem;
   background-color: white;
   color: #00098b;
+  box-sizing: border-box;
 }
 
 .temperature-control,
@@ -75,16 +76,21 @@ input:checked + .slider:before {
 }
 
 .device-card #drink-select,
+#channel-select,
 #make-drink,
-#status-text {
+#channel-select,
+#status-drink-text,
+#status-tv-text {
   margin-top: 1rem;
 }
 
-#drink-select:hover {
+#drink-select:hover,
+#channel-select:hover {
   cursor: pointer;
 }
 
-#make-drink {
+#make-drink,
+#choose-channel {
   background-color: #00098b;
   color: white;
   border: 0px;
@@ -92,7 +98,8 @@ input:checked + .slider:before {
   border-radius: 0.4rem;
 }
 
-#make-drink:hover {
+#make-drink:hover,
+#choose-channel:hover {
   color: #ffd4f2;
   cursor: pointer;
 }

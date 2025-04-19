@@ -1,6 +1,6 @@
 const selectedDrink = document.getElementById("drink-select");
 const buttonMakeDrink = document.getElementById("make-drink");
-const statusDrinkText = document.getElementById("status-text");
+const statusDrinkText = document.getElementById("status-drink-text");
 
 buttonMakeDrink.addEventListener("click", () => {
   const drink = selectedDrink.value;
