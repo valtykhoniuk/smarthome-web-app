@@ -10,13 +10,11 @@ app.use(express.static("public"));
 
 const DATA_PATH = "./data/state.json";
 
-// GET – повертає стан
 app.get("/api/state", (req, res) => {
   const data = fs.readFileSync(DATA_PATH);
   res.json(JSON.parse(data));
 });
 
-// POST – оновлює стан
 app.post("/api/state", (req, res) => {
   fs.writeFileSync(DATA_PATH, JSON.stringify(req.body, null, 2));
   res.json({ success: true });

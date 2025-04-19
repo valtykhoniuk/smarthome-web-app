@@ -1,7 +1,7 @@
 {
   "fridge": {
-    "temperature": 7,
-    "mode": false
+    "temperature": 10,
+    "mode": true
   },
   "lights": {
     "kitchen": true,
@@ -13,6 +13,6 @@
     "isOn": false
   },
   "tv": {
-    "channel": "shows"
+    "channel": "film"
   }
 }
