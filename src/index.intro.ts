@@ -3,11 +3,16 @@ document.addEventListener("DOMContentLoaded", (): void => {
   options.forEach((option) => {
     option.addEventListener("click", () => {
       const id = option.id;
-
-      if (id) {
-        window.location.href = `${id}.html`;
+      const specialRooms = ["bedroom", "kitchen", "living-room"];
+      if (specialRooms.includes(id)) {
+        window.location.href = `public/${id}.html`;
       } else {
-        console.log("Error of choice");
+        const lights = ["lamp-bedroom", "lamp-kitchen", "lamp-living-room"];
+        if (lights.includes(id)) {
+          window.location.href = `lamps/${id}.html`;
+        } else {
+          window.location.href = `${id}.html`;
+        }
       }
     });
   });
