@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitchen</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <h1>Lamp</h1>
+        <div class="device-card">
+          <div class="mode-switch">
+            <p>Mode:</p>
+            <label class="switch">
+              <input type="checkbox" id="lamp-switch" />
+              <span class="slider"></span>
+            </label>
+            <span id="mode-status">Off</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/lamp.js"></script>
+  </body>
+</html>

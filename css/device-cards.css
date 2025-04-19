@@ -1,7 +1,7 @@
 .device-card {
   margin: auto;
   border-radius: 2.9rem;
-  padding: 1rem;
+  padding: 2rem;
   background-color: white;
 }
 
@@ -15,7 +15,7 @@
   padding: 0.2rem;
   font-size: 1rem;
   border: 0px;
-  border-radius: 0.4rem;
+  border-radius: 0rem;
   color: white;
   background-color: #00098b;
 }
