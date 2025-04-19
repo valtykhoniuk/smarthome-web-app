@@ -3,6 +3,7 @@
   border-radius: 2.9rem;
   padding: 2rem;
   background-color: white;
+  color: #00098b;
 }
 
 .temperature-control,
@@ -71,4 +72,27 @@ input:checked + .slider {
 
 input:checked + .slider:before {
   transform: translateX(20px);
+}
+
+.device-card #drink-select,
+#make-drink,
+#status-text {
+  margin-top: 1rem;
+}
+
+#drink-select:hover {
+  cursor: pointer;
+}
+
+#make-drink {
+  background-color: #00098b;
+  color: white;
+  border: 0px;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+#make-drink:hover {
+  color: #ffd4f2;
+  cursor: pointer;
 }

@@ -16,22 +16,18 @@
       <div class="main-container">
         <h1>Fridge</h1>
         <div class="device-card">
-          <div class="temperature-control">
-            <p>Temperature: <span id="temp-value">5</span>°C</p>
-            <button id="increase-temp">⬇</button>
-            <button id="decrease-temp">⬆</button>
-          </div>
-          <div class="mode-switch">
-            <p>Mode</p>
-            <label class="switch">
-              <input type="checkbox" id="fridge-switch" />
-              <span class="slider"></span>
-            </label>
-            <span id="mode-status">Off</span>
-          </div>
+          <p>Choose drink</p>
+          <select id="drink-select">
+            <option value="Espresso">Espresso</option>
+            <option value="Cappuccino">Cappuccino</option>
+            <option value="Latte">Latte</option>
+            <option value="Hot Chocolate">Hot Chocolate</option>
+          </select>
+          <button id="make-drink">Make drink</button>
+          <p id="status-text">Status: Waiting for selection</p>
         </div>
       </div>
     </main>
-    <script src="js/fridge.js"></script>
+    <script src="js/coffee-maker.js"></script>
   </body>
 </html>
