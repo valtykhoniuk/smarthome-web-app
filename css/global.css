@@ -12,6 +12,15 @@
 
 :root {
   scroll-behavior: smooth;
+  --dark-blue-color: #00098b;
+  --light-pink-color: #ffd4f2;
+  --first-gradient-bc: #0600ab;
+  --second-gradient-bc: #0033ff;
+  --third-gradient-bc: #977dff;
+  --dark-color-item-list: rgba(6, 0, 171, 0.3);
+  --dark-shadow-item-list: rgba(16, 0, 86, 0.5);
+  --light-shadow-item-list: rgba(174, 172, 255, 0.5);
+  --light-shadow-item-text: rgba(174, 172, 255, 1);
 }
 
 html,
@@ -23,7 +32,12 @@ body {
 }
 
 body {
-  background: radial-gradient(circle at center, #0600ab, #0033ff, #977dff);
+  background: radial-gradient(
+    circle at center,
+    var(--first-gradient-bc),
+    var(--second-gradient-bc),
+    var(--third-gradient-bc)
+  );
   position: relative;
   z-index: 0;
 }

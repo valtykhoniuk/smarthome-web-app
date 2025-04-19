@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const options = document.querySelectorAll(".room-device");
+  const options = document.querySelectorAll(".room-list__item");
   options.forEach((option) => {
     option.addEventListener("click", () => {
       const id = option.id;

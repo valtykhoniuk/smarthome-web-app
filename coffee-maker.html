@@ -13,18 +13,22 @@
   </head>
   <body>
     <main>
-      <div class="main-container">
-        <h1>Fridge</h1>
+      <div class="main__container">
+        <h1 class="main__title">Coffee maker</h1>
         <div class="device-card">
-          <p>Choose drink</p>
-          <select id="drink-select">
+          <p class="device-card__label">Choose drink</p>
+          <select id="drink-select" class="device-card__select">
             <option value="Espresso">Espresso</option>
             <option value="Cappuccino">Cappuccino</option>
             <option value="Latte">Latte</option>
             <option value="Hot Chocolate">Hot Chocolate</option>
           </select>
-          <button id="make-drink">Make drink</button>
-          <p id="status-drink-text">Status: Waiting for selection</p>
+          <button id="make-drink" class="device-card__button">
+            Make drink
+          </button>
+          <p id="status-drink-text" class="device-card__status">
+            Status: Waiting for selection
+          </p>
         </div>
       </div>
     </main>

@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-  .rooms-devices {
+  .room-list {
     flex-direction: column;
   }
 }

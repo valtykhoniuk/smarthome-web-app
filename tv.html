@@ -13,18 +13,22 @@
   </head>
   <body>
     <main>
-      <div class="main-container">
-        <h1>TV</h1>
+      <div class="main__container">
+        <h1 class="main__title">TV</h1>
         <div class="device-card">
-          <p>Choose channel</p>
-          <select id="channel-select">
+          <p class="device-card__label">Choose channel</p>
+          <select id="channel-select" class="device-card__select">
             <option value="sport">Sport</option>
             <option value="film">Film</option>
             <option value="news">News</option>
             <option value="shows">Shows</option>
           </select>
-          <button id="choose-channel">Choose</button>
-          <p id="status-tv-text">Current channel: -</p>
+          <button id="choose-channel" class="device-card__button">
+            Choose
+          </button>
+          <p id="status-tv-text" class="device-card__status">
+            Current channel: -
+          </p>
         </div>
       </div>
     </main>

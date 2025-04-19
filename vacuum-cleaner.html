@@ -13,21 +13,36 @@
   </head>
   <body>
     <main>
-      <div class="main-container">
-        <h1>Vacuum cleaner</h1>
+      <div class="main__container">
+        <h1 class="main__title">Vacuum Cleaner</h1>
         <div class="device-card">
-          <div class="intensivity-control">
-            <p>Intensivity: <span id="intensivity-value">30</span></p>
-            <button id="decrease-ins-value">⬇</button>
-            <button id="increase-ins-value">⬆</button>
+          <div class="device-card__intensivity-control">
+            <p class="device-card__label">
+              Intensivity:
+              <span
+                id="intensivity-value"
+                class="device-card__intensivity-value"
+                >30</span
+              >
+            </p>
+            <button id="decrease-ins-value" class="device-card__button">
+              ⬇
+            </button>
+            <button id="increase-ins-value" class="device-card__button">
+              ⬆
+            </button>
           </div>
-          <div class="mode-vc-switch">
-            <p>Mode</p>
-            <label class="switch">
-              <input type="checkbox" id="vc-switch" />
-              <span class="slider"></span>
+          <div class="device-card__mode-switch">
+            <p class="device-card__label">Mode</p>
+            <label class="device-card__switch">
+              <input
+                type="checkbox"
+                id="vc-switch"
+                class="device-card__switch-input"
+              />
+              <span class="device-card__slider"></span>
             </label>
-            <span id="mode-vc-status">Off</span>
+            <span id="mode-vc-status" class="device-card__status">Off</span>
           </div>
         </div>
       </div>

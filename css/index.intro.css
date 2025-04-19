@@ -1,22 +1,22 @@
-.main-container {
+.main__container {
   margin: 1.5rem;
   text-align: center;
   flex: 1;
 }
 
-.main-container h1 {
+.main__title {
   color: white;
   margin-bottom: 1rem;
 }
 
-.rooms-devices {
+.room-list {
   display: flex;
   justify-content: space-around;
   gap: 1.5rem;
 }
 
-.room-device {
-  background-color: rgba(6, 0, 171, 0.3); /* 👈 Напівпрозорий */
+.room-list__item {
+  background-color: var(--dark-color-item-list);
   text-align: center;
   padding: 1.5rem;
   border-radius: 0.75rem;
@@ -27,19 +27,20 @@
   align-items: center;
   gap: 1rem;
   flex: 1;
-  box-shadow: 0 4px 20px rgba(16, 0, 86, 0.5);
-}
-
-.room-device:hover {
-  box-shadow: 0 4px 20px rgba(174, 172, 255, 0.5);
-  text-shadow: 0 0 8px rgba(174, 172, 255, 1);
-}
-
-.room-device {
+  box-shadow: 0 4px 20px var(--dark-shadow-item-list);
   transition: box-shadow 0.5s ease, text-shadow 0.3s ease;
 }
 
-.room-device-icon {
+.room-list__item:hover {
+  box-shadow: 0 4px 20px var(--light-shadow-item-list);
+  text-shadow: 0 0 8px var(--light-shadow-item-text);
+}
+
+.room-list__icon {
   width: 2rem;
   height: 2rem;
+}
+
+.room-list__name {
+  font-size: 1.25rem;
 }
