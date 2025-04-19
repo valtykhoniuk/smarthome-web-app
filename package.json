@@ -1,0 +1,23 @@
+{
+  "name": "smarthome-web-app",
+  "version": "1.0.0",
+  "description": "This project simulates a smart home system with a kitchen/bedroom/living room section where you can control various appliances, like a fridge, coffee maker and etc. The project uses HTML, CSS, JavaScript with a focus on interactivity and a user-friendly interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valtykhoniuk/smarthome-web-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valtykhoniuk/smarthome-web-app/issues"
+  },
+  "homepage": "https://github.com/valtykhoniuk/smarthome-web-app#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
