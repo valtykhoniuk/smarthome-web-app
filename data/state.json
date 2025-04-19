@@ -1,0 +1,18 @@
+{
+  "fridge": {
+    "temperature": 7,
+    "mode": false
+  },
+  "lights": {
+    "kitchen": true,
+    "livingRoom": false,
+    "bedroom": true
+  },
+  "vacuum": {
+    "intensivity": 5,
+    "isOn": false
+  },
+  "tv": {
+    "channel": "shows"
+  }
+}

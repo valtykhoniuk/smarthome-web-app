@@ -19,5 +19,9 @@
   "homepage": "https://github.com/valtykhoniuk/smarthome-web-app#readme",
   "devDependencies": {
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
   }
 }
